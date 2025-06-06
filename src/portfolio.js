@@ -46,7 +46,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Full Stack Developer eager to explore and master diverse technologies",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -128,7 +129,8 @@ const educationInfo = {
     {
       schoolName: "Technical University of Varna",
       logo: require("./assets/images/tehUn.jpg"),
-      subHeader: "Master of Siemens PLC",
+      subHeader:
+        "Master’s Degree focused on Industrial Automation with Siemens PLC systems",
       duration: "September 2024 - Expected to grad 2026"
     }
   ]
@@ -157,36 +159,36 @@ const techStack = {
 
 // Work experience section
 
-const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Full Stack Web Developer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "Mar 2022 – Jul 2024",
-      desc: "Writing clean, modular, and well-documented logic",
-      descBullets: [
-        "Designed and implemented RESTful APIs for mobile apps with JSON data exchange",
-        "Collaborated with UX and UI designers to create intuitive user interfaces for web applications."
-      ]
-    }
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
-  ]
-};
+// const workExperiences = {
+//   display: true, //Set it to true to show workExperiences Section
+//   experience: [
+//     {
+//       role: "Full Stack Web Developer",
+//       company: "Facebook",
+//       companylogo: require("./assets/images/facebookLogo.png"),
+//       date: "Mar 2022 – Jul 2024",
+//       desc: "Writing clean, modular, and well-documented logic",
+//       descBullets: [
+//         "Designed and implemented RESTful APIs for mobile apps with JSON data exchange",
+//         "Collaborated with UX and UI designers to create intuitive user interfaces for web applications."
+//       ]
+//     }
+//     // {
+//     //   role: "Front-End Developer",
+//     //   company: "Quora",
+//     //   companylogo: require("./assets/images/quoraLogo.png"),
+//     //   date: "May 2017 – May 2018",
+//     //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+//     // },
+//     // {
+//     //   role: "Software Engineer Intern",
+//     //   company: "Airbnb",
+//     //   companylogo: require("./assets/images/airbnbLogo.png"),
+//     //   date: "Jan 2015 – Sep 2015",
+//     //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+//     // }
+//   ]
+// };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -200,7 +202,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: " ",
   projects: [
     {
       image: require("./assets/images/ams.png"),
@@ -210,8 +212,11 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://archive-management.netlify.app/"
+        },
+        {
+          name: "Github",
+          url: "https://github.com/levski1914/Archive-management---project"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -222,6 +227,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://forecastbulgaria.netlify.app/"
+        },
+        {
+          name: "Github",
+          url: "https://github.com/levski1914/Forecast"
         }
       ]
     },
@@ -232,6 +241,10 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
+          url: "https://github.com/levski1914/AI-Todo-Shopping-Expenses"
+        },
+        {
+          name: "Github",
           url: "https://github.com/levski1914/AI-Todo-Shopping-Expenses"
         }
       ]
@@ -303,27 +316,27 @@ const bigProjects = {
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+// const blogSection = {
+//   title: "Blogs",
+//   subtitle:
+//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+//   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+//   blogs: [
+//     {
+//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description:
+//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description:
+//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Talks Sections
 
@@ -391,10 +404,10 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-  workExperiences,
+  // workExperiences,
   openSource,
   bigProjects,
-  blogSection,
+  // blogSection,
   // talkSection,
   contactInfo,
   // twitterDetails,
