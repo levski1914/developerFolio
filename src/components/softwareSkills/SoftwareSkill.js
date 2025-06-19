@@ -15,7 +15,15 @@ export default function SoftwareSkill() {
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
+                <p
+                  style={{
+                    textTransform: "uppercase",
+                    color: "cyan",
+                    fontSize: "15px"
+                  }}
+                >
+                  {skills.skillName}
+                </p>
               </li>
             );
           })}
