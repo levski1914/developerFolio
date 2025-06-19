@@ -83,6 +83,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "typescript",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -110,6 +114,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     }
   ],
   display: true // Set false to hide this section, defaults to true
