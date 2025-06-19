@@ -248,6 +248,20 @@ const bigProjects = {
           url: "https://github.com/levski1914/AI-Todo-Shopping-Expenses"
         }
       ]
+    }, {
+      image: require("./assets/images/e-bank.png"),
+      projectName: "Sprints-MERN-E-Banking-System",
+      projectDesc: "Say Goodbye to Traditional Banking with E-Bank",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://e-bank-system-gd.netlify.app/"
+        },
+        {
+          name: "Github",
+          url: "https://github.com/levski1914/Sprints-MERN-E-Banking-System"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
